@@ -17,7 +17,7 @@ cache/
 
 #################################
 ## exercism
-**/.exercism/*
+**/.exercism
 **/HELP.md
 **/HINTS.md
 
