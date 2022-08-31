@@ -12,13 +12,31 @@ func SplitLogLine(text string) []string {
 }
 
 func CountQuotedPasswords(lines []string) int {
-	panic("Please implement the CountQuotedPasswords function")
+	re := regexp.MustCompile(`(?i)".*password.*"`)
+	count := 0
+	for _, line := range lines {
+		if re.MatchString(line) {
+			count++
+		}
+	}
+	return count
 }
 
 func RemoveEndOfLineText(text string) string {
-	panic("Please implement the RemoveEndOfLineText function")
+	return regexp.MustCompile(`end-of-line\d+`).ReplaceAllLiteralString(text, "")
 }
 
 func TagWithUserName(lines []string) []string {
-	panic("Please implement the TagWithUserName function")
+	re := regexp.MustCompile(`User +([a-zA-Z\d]+)`)
+
+	for i, line := range lines {
+
+		// will return the user in slice[1]
+		slice := re.FindStringSubmatch(line)
+		if slice != nil {
+			lines[i] = "[USR] " + slice[1] + " " + line
+			// alternative: fmt.Sprintf("[USR] %s %s", slice[1], line)
+		}
+	}
+	return lines
 }
