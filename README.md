@@ -10,9 +10,10 @@ Platforms to consider:
 
 
 problem         | platform                                                                    | solution
-----------------|-----------------------------------------------------------------------------|--------------------
-hello-world     | [exercism](https://exercism.org/tracks/python/exercises/hello-world)        | [python](exercism/python/hello-world/hello_world.py) - [go](exercism/go/hello-world/hello_world.go)
-black-jack      | [exercism](https://exercism.org/tracks/python/exercises/black-jack)         | [python](exercism/python/black-jack/black_jack.py)   - [go](exercism/go/blackjack/blackjack.go)
-anagram         | [exercism](https://exercism.org/tracks/python/exercises/anagram)            | [python](exercism/python/anagram/anagram.py)         - [go](exercism/go/anagram/anagram.go)
-isogram         | [exercism](https://exercism.org/tracks/python/exercises/isogram)            | [python](exercism/python/anagram/isogram.py)         - [go](exercism/go/anagram/isogram.go)
-flatten-array   | [exercism](https://exercism.org/tracks/python/exercises/flatten-array)      | [python](exercism/python/anagram/flatten-array.py)   - [go](exercism/go/anagram/flatten_array.go)
+----------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+hello-world     | [exercism](https://exercism.org/tracks/python/exercises/hello-world)        | [python](exercism/python/hello-world/hello_world.py)      - [go](exercism/go/hello-world/hello_world.go)
+black-jack      | [exercism](https://exercism.org/tracks/python/exercises/black-jack)         | [python](exercism/python/black-jack/black_jack.py)        - [go](exercism/go/blackjack/blackjack.go)
+anagram         | [exercism](https://exercism.org/tracks/python/exercises/anagram)            | [python](exercism/python/anagram/anagram.py)              - [go](exercism/go/anagram/anagram.go)
+isogram         | [exercism](https://exercism.org/tracks/python/exercises/isogram)            | [python](exercism/python/isogram/isogram.py)              - [go](exercism/go/isogram/isogram.go)
+flatten-array   | [exercism](https://exercism.org/tracks/python/exercises/flatten-array)      | [python](exercism/python/flatten-array/flatten_array.py)  - [go](exercism/go/flatten-array/flatten_array.go)
+isbn-verifier   | [exercism](https://exercism.org/tracks/python/exercises/isbn-verifier)      | [python](exercism/python/isbn-verifier/isbn_verifier.py)  - [go](exercism/go/isbn-verifier/isbn_verifier.go)
