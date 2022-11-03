@@ -17,3 +17,4 @@ anagram         | [exercism](https://exercism.org/tracks/python/exercises/anagra
 isogram         | [exercism](https://exercism.org/tracks/python/exercises/isogram)            | [python](exercism/python/isogram/isogram.py)              - [go](exercism/go/isogram/isogram.go)
 flatten-array   | [exercism](https://exercism.org/tracks/python/exercises/flatten-array)      | [python](exercism/python/flatten-array/flatten_array.py)  - [go](exercism/go/flatten-array/flatten_array.go)
 isbn-verifier   | [exercism](https://exercism.org/tracks/python/exercises/isbn-verifier)      | [python](exercism/python/isbn-verifier/isbn_verifier.py)  - [go](exercism/go/isbn-verifier/isbn_verifier.go)
+space-age       | [exercism](https://exercism.org/tracks/python/exercises/space-age)          | [python](exercism/python/space-age/space_age.py)          - [go](exercism/go/space-age/space_age.go)
