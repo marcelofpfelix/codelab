@@ -20,3 +20,4 @@ isbn-verifier      | [exercism](https://exercism.org/tracks/python/exercises/isb
 space-age          | [exercism](https://exercism.org/tracks/python/exercises/space-age)          | [python](exercism/python/space-age/space_age.py)                            - [go](exercism/go/space-age/space_age.go)
 collatz-conjecture | [exercism](https://exercism.org/tracks/python/exercises/collatz-conjecture) | [python](exercism/python/collatz-conjecture/collatz_conjecture.py)          - [go](exercism/go/collatz-conjecture/collatz_conjecture.go)
 scrabble-score     | [exercism](https://exercism.org/tracks/python/exercises/scrabble-score)     | [python](exercism/python/scrabble-score/scrabble_score.py)                  - [go](exercism/go/scrabble-score/scrabble_score.go)
+luhn               | [exercism](https://exercism.org/tracks/python/exercises/luhn)               | [python](exercism/python/luhn/luhn.py)                                      - [go](exercism/go/luhn/luhn.go)
