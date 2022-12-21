@@ -2,36 +2,7 @@
 wordy.py
 """
 
-import ast
-import operator as op
-
-# supported operators
-operators = {ast.Add: op.add, ast.Sub: op.sub, ast.Mult: op.mul,
-             ast.Div: op.truediv, ast.Pow: op.pow, ast.BitXor: op.xor,
-             ast.USub: op.neg}
-
-def eval_(node):
-    """
-    eval for arithmeticsas in simpleeval
-    """
-    # <number>
-    if isinstance(node, ast.Num):
-        return node.n
-    # <left> <operator> <right>
-    if isinstance(node, ast.BinOp):
-        return operators[type(node.op)](eval_(node.left), eval_(node.right))
-    # <operator> <operand> e.g., -1
-    if isinstance(node, ast.UnaryOp):
-        return operators[type(node.op)](eval_(node.operand))
-    raise TypeError(node)
-
-
-def unk_op(question):
-    """
-    simple generator to check if the operation is known
-    """
-    for value in question:
-        yield value.isalpha() and value not in ("What", "is")
+import re
 
 
 def answer(question):
@@ -39,21 +10,38 @@ def answer(question):
     Parse and evaluate simple math word problems returning the answer as an integer.
     """
 
+    # validate syntax
     if not question.startswith('What is'):
         raise ValueError("unknown operation")
 
-    question = question.replace("What is ", "").replace("?", "").replace("?", "")
-    question = question.replace("plus", "+").replace("multiplied by", "*").replace("minus", "-")
-    question = question.replace("divided by", "/").split()
+    op_regex = re.compile(r'(plus|minus|divided|multiplied)')
+    num_regex = re.compile(r'-?\d+')
 
-    # this should be replaced with a loop
-    question.insert(0, "(")
-    question.insert(4, ")")
+    operations = list(re.findall(op_regex, question))
+    numbers = list(re.findall(num_regex, question))
 
-    if any(list(unk_op(question))):
+    # returns error if numbers and operators mismatch
+    if len(operations) != (len(numbers) - 1):
+        raise ValueError("syntax error")
+
+    if (not re.match(r"What is \d\?", question)) and len(numbers) == 1:
         raise ValueError("unknown operation")
 
-    try:
-        return eval_(ast.parse(" ".join(question), mode='eval').body)
-    except Exception as exception:
-        raise ValueError("syntax error") from exception
+    if not re.match(r"What is -?\d+(?: (?:plus|minus|divided by|multiplied by) -?\d+)*\?",
+                    question):
+        raise ValueError("syntax error")
+
+    total = int(numbers[0])
+
+    for index, operation in enumerate(operations):
+        number = int(numbers[index+1])
+        if operation == "plus":
+            total += number
+        elif operation == "minus":
+            total -= number
+        elif operation == "divided":
+            total /= number
+        elif operation == "multiplied":
+            total *= number
+
+    return total
