@@ -85,5 +85,6 @@ ID  | problem                    | platform                                     
 71  | secrets                    | [exercism](https://exercism.org/tracks/elixir/exercises/secrets)                    | [elixir](exercism/elixir/secrets/lib/secrets.ex)
 72  | assembly-line              | [exercism](https://exercism.org/tracks/rust/exercises/assembly-line)                | [rust](exercism/rust/assembly-line/src/lib.rs)
 73  | locomotive-engineer        | [exercism](https://exercism.org/tracks/python/exercises/locomotive-engineer)        | [python](exercism/python/locomotive-engineer/locomotive_engineer.py)
-74  | freelancer-rates           | [exercism](https://exercism.org/tracks/elixir/exercises/freelancer-rates            | [elixir](exercism/elixir/freelancer-rates/lib/freelancer_rates.ex)
-75  | semi-structured-logs       | [exercism](https://exercism.org/tracks/rust/exercises/semi-structured-logs          | [rust](exercism/rust/semi-structured-logs/src/lib.rs)
+74  | freelancer-rates           | [exercism](https://exercism.org/tracks/elixir/exercises/freelancer-rates)           | [elixir](exercism/elixir/freelancer-rates/lib/freelancer_rates.ex)
+75  | semi-structured-logs       | [exercism](https://exercism.org/tracks/rust/exercises/semi-structured-logs)         | [rust](exercism/rust/semi-structured-logs/src/lib.rs)
+76  | list-ops                   | [exercism](https://exercism.org/tracks/python/exercises/list-ops)                   | [python](exercism/python/list-ops/list_ops.py)
