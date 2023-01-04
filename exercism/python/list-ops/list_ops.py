@@ -1,9 +1,9 @@
 def append(list1, list2):
-    pass
+    return list1 + list2
 
 
 def concat(lists):
-    pass
+    return [item for sublist in lists for item in sublist]
 
 
 def filter(function, list):
