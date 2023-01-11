@@ -3,28 +3,50 @@ package listops
 // IntList is an abstraction of a list of integers which we can define methods on
 type IntList []int
 
+// type binFunc func(x, y int) int
+
 func (s IntList) Foldl(fn func(int, int) int, initial int) int {
-	panic("Please implement the Foldl function")
+	for _, iten := range s {
+		initial = fn(initial, iten)
+	}
+	return initial
 }
 
 func (s IntList) Foldr(fn func(int, int) int, initial int) int {
-	panic("Please implement the Foldr function")
+	for i := len(s) - 1; i >= 0; i-- {
+		initial = fn(s[i], initial)
+	}
+	return initial
 }
 
 func (s IntList) Filter(fn func(int) bool) IntList {
-	panic("Please implement the Filter function")
+	list := IntList{}
+	for _, iten := range s {
+		if fn(iten) {
+			list = append(list, iten)
+		}
+	}
+	return list
 }
 
 func (s IntList) Length() int {
-	panic("Please implement the Length function")
+	return len(s)
 }
 
 func (s IntList) Map(fn func(int) int) IntList {
-	panic("Please implement the Map function")
+	list := IntList{}
+	for _, iten := range s {
+		list = append(list, fn(iten))
+	}
+	return list
 }
 
 func (s IntList) Reverse() IntList {
-	panic("Please implement the Reverse function")
+	list := IntList{}
+	for i := len(s) - 1; i >= 0; i-- {
+		list = append(list, s[i])
+	}
+	return list
 }
 
 func (s IntList) Append(lst IntList) IntList {
