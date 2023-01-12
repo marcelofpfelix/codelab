@@ -89,3 +89,4 @@ ID  | problem                    | platform                                     
 75  | semi-structured-logs       | [exercism](https://exercism.org/tracks/rust/exercises/semi-structured-logs)         | [rust](exercism/rust/semi-structured-logs/src/lib.rs)
 76  | list-ops                   | [exercism](https://exercism.org/tracks/python/exercises/list-ops)                   | [python](exercism/python/list-ops/list_ops.py) - [go](exercism/go/list-ops/list_ops.go)
 77  | pacman-rules               | [exercism](https://exercism.org/tracks/elixir/exercises/pacman-rules)               | [elixir](exercism/elixir/pacman-rules/lib/rules.ex)
+78  | health-statistics          | [exercism](https://exercism.org/tracks/rust/exercises/health-statistics)            | [rust](exercism/rust/health-statistics/src/lib.rs)
