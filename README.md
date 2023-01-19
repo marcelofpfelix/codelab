@@ -54,7 +54,7 @@ ID  | problem                    | platform                                     
 42  | cater-waiter               | [exercism](https://exercism.org/tracks/python/exercises/cater-waiter)               | [python](exercism/python/cater-waiter/sets.py)
 43  | ellens-alien-game          | [exercism](https://exercism.org/tracks/python/exercises/ellens-alien-game)          | [python](exercism/python/ellens-alien-game/classes.py)
 44  | resistor-color-duo         | [exercism](https://exercism.org/tracks/python/exercises/resistor-color-duo)         | [python](exercism/python/resistor-color-duo/resistor_color_duo.py)
-45  | resistor-color             | [exercism](https://exercism.org/tracks/python/exercises/resistor-color)             | [python](exercism/python/resistor-color/resistor_color.py)
+45  | resistor-color             | [exercism](https://exercism.org/tracks/python/exercises/resistor-color)             | [python](exercism/python/resistor-color/resistor_color.py) [rust](exercism/rust/resistor-color/src/lib.rs)
 46  | gigasecond                 | [exercism](https://exercism.org/tracks/python/exercises/gigasecond)                 | [python](exercism/python/gigasecond/gigasecond.py)                          - [go](exercism/go/gigasecond/gigasecond.go)
 47  | isogram                    | [exercism](https://exercism.org/tracks/python/exercises/isogram)                    | [python](exercism/python/isogram/isogram.py)                                - [go](exercism/go/isogram/isogram.go)
 48  | darts                      | [exercism](https://exercism.org/tracks/python/exercises/darts)                      | [python](exercism/python/darts/darts.py)                                    - [go](exercism/go/darts/darts.go)
@@ -90,3 +90,6 @@ ID  | problem                    | platform                                     
 76  | list-ops                   | [exercism](https://exercism.org/tracks/python/exercises/list-ops)                   | [python](exercism/python/list-ops/list_ops.py) - [go](exercism/go/list-ops/list_ops.go)
 77  | pacman-rules               | [exercism](https://exercism.org/tracks/elixir/exercises/pacman-rules)               | [elixir](exercism/elixir/pacman-rules/lib/rules.ex)
 78  | health-statistics          | [exercism](https://exercism.org/tracks/rust/exercises/health-statistics)            | [rust](exercism/rust/health-statistics/src/lib.rs)
+79  | acronym                    | [exercism](https://exercism.org/tracks/python/exercises/acronym)                    | [python](exercism/python/acronym/acronym.py) - [go](exercism/go/acronym/acronym.go)
+80  | language-list               | [exercism](https://exercism.org/tracks/elixir/exercises/language-list)             | [elixir](exercism/elixir/language-list/lib/language_list.ex)
+
