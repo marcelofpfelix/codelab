@@ -1,33 +1,24 @@
 package atbash
 
-import "strings"
+import (
+	"bytes"
+	"strings"
+	"unicode"
+)
 
 func Atbash(s string) string {
-	panic("Please implement the Atbash function")
-}
+	var ciphertext bytes.Buffer
 
-
-// 	a simple shift cipher that relies on transposing all the letters in the alphabet
-//	using an integer key between `0` and `26`
-func RotationalCipher(plain string, shiftKey int) string {
-
-
-	// text_list[index]= chr(122-ord(char)+97)
-
-	// sums the key using % 26
-	cipher := func(char rune) rune {
-		lower := 'a'
-		upper := 'A'
-		base := upper
-
-		if char >= lower {
-			base = lower
+	for _, char := range strings.ToLower(s) {
+		if unicode.IsLetter(char) {
+			ciphertext.WriteRune('a' + 'z' - char)
+		} else if unicode.IsDigit(char) {
+			ciphertext.WriteRune(char)
 		}
-		if char >= upper {
-			return base + (char-base+rune(shiftKey))%26
+		if (ciphertext.Len()+1)%6 == 0 {
+			ciphertext.WriteRune(' ')
 		}
-		return char
 	}
-
-	return strings.Map(cipher, plain)
+	// remove any trailing space that was inserted
+	return strings.TrimRight(ciphertext.String(), " ")
 }

@@ -91,5 +91,5 @@ ID  | problem                    | platform                                     
 77  | pacman-rules               | [exercism](https://exercism.org/tracks/elixir/exercises/pacman-rules)               | [elixir](exercism/elixir/pacman-rules/lib/rules.ex)
 78  | health-statistics          | [exercism](https://exercism.org/tracks/rust/exercises/health-statistics)            | [rust](exercism/rust/health-statistics/src/lib.rs)
 79  | acronym                    | [exercism](https://exercism.org/tracks/python/exercises/acronym)                    | [python](exercism/python/acronym/acronym.py) - [go](exercism/go/acronym/acronym.go)
-80  | language-list               | [exercism](https://exercism.org/tracks/elixir/exercises/language-list)             | [elixir](exercism/elixir/language-list/lib/language_list.ex)
-
+80  | language-list              | [exercism](https://exercism.org/tracks/elixir/exercises/language-list)              | [elixir](exercism/elixir/language-list/lib/language_list.ex)
+81  | atbash-cipher              | [exercism](https://exercism.org/tracks/python/exercises/atbash-cipher)              | [elixir](exercism/python/atbash-cipher/lib/atbash_cipher.py) [go](exercism/go/atbash-cipher/lib/atbash_cipher.go)
