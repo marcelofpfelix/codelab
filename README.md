@@ -95,3 +95,7 @@ ID  | problem                    | platform                                     
 81  | atbash-cipher              | [exercism](https://exercism.org/tracks/python/exercises/atbash-cipher)              | [python](exercism/python/atbash-cipher/atbash_cipher.py) - [go](exercism/go/atbash-cipher/atbash_cipher.go)
 82  | log-level                  | [exercism](https://exercism.org/tracks/elixir/exercises/log-level)                  | [elixir](exercism/elixir/log-level/lib/log_level.ex)
 83  | short-fibonacci            | [exercism](https://exercism.org/tracks/elixir/exercises/short-fibonacci)            | [rust](exercism/rust/short-fibonacci/src/lib.rs)
+84  | square-root                | [exercism](https://exercism.org/tracks/python/exercises/square-root)                | [python](exercism/python/acronym/square_root.py)
+85  | airport-robot              | [exercism](https://exercism.org/tracks/go/exercises/airport-robot)                  | [go](exercism/go/airport-robot/airport_robot.go)
+86  | word-count                 | [exercism](https://exercism.org/tracks/python/exercises/word-count)                 | [python](exercism/python/word-count/word_count.py) - [go](exercism/go/word-count/word_count.go)
+86  | proverb                    | [exercism](https://exercism.org/tracks/python/exercises/proverb)                    | [python](exercism/python/word-count/proverb.py) - [go](exercism/go/word-count/proverb.go)
