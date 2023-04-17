@@ -69,7 +69,7 @@ The code points specified in `<chars>` are not a prefix or suffix - **all combin
 
 
  ```python
-# This will remove "https://", because it can be formed from "/stph:". 
+# This will remove "https://", because it can be formed from "/stph:".
 >>> 'https://unicode.org/emoji/'.strip('/stph:')
 'unicode.org/emoji'
 

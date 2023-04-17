@@ -28,7 +28,7 @@ def value(colors):
         # return color_list().index(colors[0]) * 10 + color_list().index(colors[1])
     elif colors_len == 1:
         return int(color_value[colors[0]])
-    else: 
+    else:
         return 0
 
 

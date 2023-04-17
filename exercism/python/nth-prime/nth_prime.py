@@ -16,7 +16,7 @@ def prime(number):
     primes = [2]
     index = 3
     while len(primes) < number:
-        # checks whether n is divisible by any of the prime 
+        # checks whether n is divisible by any of the prime
         if all(index % prime > 0 for prime in primes):
             primes.append(index)
         # all prime numbers greater than 2 are odd

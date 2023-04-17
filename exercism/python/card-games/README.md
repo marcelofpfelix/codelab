@@ -55,7 +55,7 @@ For readability, line breaks can be used when there are many elements or nested 
       "Cyclamen",
       "Lavender"
    ]
-   
+
 >>> lots_of_entries
 ['Rose', 'Sunflower', 'Poppy', 'Pansy', 'Tulip', 'Fuchsia', 'Cyclamen', 'Lavender']
 
@@ -65,7 +65,7 @@ For readability, line breaks can be used when there are many elements or nested 
       ("fish", "mammal", "bird"),
       ['water', 'jungle', 'sky']
    ]
-   
+
 >>> nested_data_structures
 [{'fish': 'gold', 'monkey': 'brown', 'parrot': 'grey'}, ('fish', 'mammal', 'bird'), ['water', 'jungle', 'sky']]
 ```
@@ -329,7 +329,7 @@ She has thought of two ways of getting an _average-like_ number:
 
 - Take the average of the _first_ and _last_ number in the hand.
 - Using the median (middle card) of the hand.
-  
+
 Implement the function `approx_average_is_average(<hand>)`, given `hand`, a list containing the values of the cards in your hand.
 
 Return `True` if either _one_ `or` _both_ of the, above named, strategies result in a number _equal_ to the _actual average_.

@@ -194,7 +194,7 @@ The operators `in` and `not in` test for _membership_.
 For string and bytes types, `<name> in <fullname>` is `True` _**if and only if**_ `<name>` is a substring of `<fullname>`.
 
 ```python
->>> 
+>>>
 # A set of lucky numbers.
 >>> lucky_numbers = {11, 22, 33}
 >>> 22 in lucky_numbers

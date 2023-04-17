@@ -325,7 +325,7 @@ Implement the `check_drinks(<drink_name>, <drink_ingredients>)` function that ta
   For the purposes of this exercise, cocktails will only include alcohols from the ALCOHOLS constant in `sets_categories_data.py`:
 
 ```python
->>> from sets_categories_data import ALCOHOLS 
+>>> from sets_categories_data import ALCOHOLS
 
 >>> check_drinks('Honeydew Cucumber', ['honeydew', 'coconut water', 'mint leaves', 'lime juice', 'salt', 'english cucumber'])
 ...
@@ -410,14 +410,14 @@ Either the `<dishes>` or `<appetizers>` `list` could contain duplicates and may 
 dishes =    ['Avocado Deviled Eggs','Flank Steak with Chimichurri and Asparagus', 'Kingfish Lettuce Cups',
              'Grilled Flank Steak with Caesar Salad','Vegetarian Khoresh Bademjan','Avocado Deviled Eggs',
              'Barley Risotto','Kingfish Lettuce Cups']
-          
+
 appetizers = ['Kingfish Lettuce Cups','Avocado Deviled Eggs','Satay Steak Skewers',
               'Dahi Puri with Black Chickpeas','Avocado Deviled Eggs','Asparagus Puffs',
               'Asparagus Puffs']
-              
+
 >>> separate_appetizers(dishes, appetizers)
 ...
-['Vegetarian Khoresh Bademjan', 'Barley Risotto', 'Flank Steak with Chimichurri and Asparagus', 
+['Vegetarian Khoresh Bademjan', 'Barley Risotto', 'Flank Steak with Chimichurri and Asparagus',
  'Grilled Flank Steak with Caesar Salad']
 ```
 

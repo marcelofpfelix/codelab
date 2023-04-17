@@ -1,4 +1,6 @@
-# code-partice
+# code-practice
+
+kata code exercises and practice, in different languages.
 
 Platforms to consider:
 
@@ -98,4 +100,7 @@ ID  | problem                    | platform                                     
 84  | square-root                | [exercism](https://exercism.org/tracks/python/exercises/square-root)                | [python](exercism/python/acronym/square_root.py)
 85  | airport-robot              | [exercism](https://exercism.org/tracks/go/exercises/airport-robot)                  | [go](exercism/go/airport-robot/airport_robot.go)
 86  | word-count                 | [exercism](https://exercism.org/tracks/python/exercises/word-count)                 | [python](exercism/python/word-count/word_count.py) - [go](exercism/go/word-count/word_count.go)
-86  | proverb                    | [exercism](https://exercism.org/tracks/python/exercises/proverb)                    | [python](exercism/python/word-count/proverb.py) - [go](exercism/go/word-count/proverb.go)
+87  | proverb                    | [exercism](https://exercism.org/tracks/python/exercises/proverb)                    | [python](exercism/python/proverb/proverb.py) - [go](exercism/go/proverb/proverb.go)
+88  | nth-prime                  | [exercism](https://exercism.org/tracks/python/exercises/nth-prime)                  | [python](exercism/python/nth-prime/nth_prime.py) - [go](exercism/go/nth-prime/nth_prime.go)
+89  | simple-cipher              | [exercism](https://exercism.org/tracks/python/exercises/proverb)                    | [python](exercism/python/simple-cipher/simple_cipher.py) - [go](exercism/go/simple-cipher/simple_cipher.go)
+90  | binary_search              | [dsa](https://bandonga.com/code/search/)                                            | [c](dsa/c/binary_search/binary_search.py)

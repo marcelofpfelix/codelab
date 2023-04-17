@@ -27,7 +27,7 @@ datetime.datetime(2022, 5, 4, 0, 0)
 
 Your Clock `class` will create a custom `object` that handles times without dates.
 One important aspect of this `class` will be how it is represented as a _string_.
-Other programmers who use or call Clock `objects` created from the Clock `class` will refer to this string representation for debugging and other activities.  
+Other programmers who use or call Clock `objects` created from the Clock `class` will refer to this string representation for debugging and other activities.
 However, the default string representation on a `class` is usually not very helpful.
 
 ```python

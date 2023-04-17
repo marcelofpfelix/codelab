@@ -37,6 +37,3 @@ impl User {
         self.weight = new_weight
     }
 }
-
-
-

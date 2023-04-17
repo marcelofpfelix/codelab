@@ -6,4 +6,3 @@ def is_isogram(string):
   string = ''.join(filter(str.isalpha, string.lower()))
   # set is a collection which is unordered and unindexed. No duplicate members.
   return len(string) == len(set(string))
-

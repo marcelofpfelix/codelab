@@ -89,14 +89,14 @@ The number of arguments passed in the parentheses must match the number of param
 ```python
 >>> def number_to_the_power_of(number_one, number_two):
         """Raise a number to an arbitrary power.
-        
+
         :param number_one: int the base number.
         :param number_two: int the power to raise the base number to.
         :return: int - number raised to power of second number
-        
+
         Takes number_one and raises it to the power of number_two, returning the result.
         """
-        
+
         return number_one ** number_two
 ...
 
@@ -120,11 +120,11 @@ Adding a [default value][default arguments] for a parameter can defend against s
 ```python
 >>> def number_to_the_power_of_default(number_one, number_two=2):
         """Raise a number to an arbitrary power.
-        
+
         :param number_one: int the base number.
         :param number_two: int the power to raise the base number to.
         :return: int - number raised to power of second number
-        
+
         Takes number_one and raises it to the power of number_two, returning the result.
         """
 
@@ -180,11 +180,11 @@ They are recommended for programs of any size where documentation is needed, and
 # An example on a user-defined function.
 >>> def number_to_the_power_of(number_one, number_two):
         """Raise a number to an arbitrary power.
-        
+
         :param number_one: int the base number.
         :param number_two: int the power to raise the base number to.
         :return: int - number raised to power of second number
-        
+
         Takes number_one and raises it to the power of number_two, returning the result.
         """
 
@@ -293,7 +293,7 @@ def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
     """
     Return elapsed cooking time.
 
-    This function takes two numbers representing the number of layers & the time already spent 
+    This function takes two numbers representing the number of layers & the time already spent
     baking and calculates the total elapsed minutes spent cooking the lasagna.
     """
 ```
