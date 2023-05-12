@@ -4,11 +4,6 @@
 #ifndef BINARY_SEARCH_H
 #define BINARY_SEARCH_H
 
-// Declare the 'hello()' function, which takes no arguments and returns a
-// 'const char *', i.e. a pointer to a character (in this case the first
-// character in a string). The function itself is defined in the hello_world.c
-// source file. Ths function is called by the test case(s) in the test source
-// file test/test_hello_world.c.
 int binarySearch(int*, int, int);
 
 #endif
