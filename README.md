@@ -104,4 +104,6 @@ ID  | problem                    | platform                                     
 88  | nth-prime                  | [exercism](https://exercism.org/tracks/python/exercises/nth-prime)                  | [python](exercism/python/nth-prime/nth_prime.py) - [go](exercism/go/nth-prime/nth_prime.go)
 89  | simple-cipher              | [exercism](https://exercism.org/tracks/python/exercises/proverb)                    | [python](exercism/python/simple-cipher/simple_cipher.py)
 90  | binary_search              | [dsa](https://bandonga.com/code/search/)                                            | [c](dsa/c/binary_search/binary_search.c) - [python](dsa/python/binary_search/binary_search.py)
-89  | binary-search              | [exercism](https://exercism.org/tracks/python/exercises/binary-search)              | [python](exercism/python/binary-search/binary_search.py)
+91  | binary-search              | [exercism](https://exercism.org/tracks/python/exercises/binary-search)              | [python](exercism/python/binary-search/binary_search.py)
+92  | crystal_balls              | [dsa](https://bandonga.com/code/crystal-balls/)                                     | [c](dsa/c/binary_search/crystal_balls.c)
+93  | bubble_sort              | [dsa](https://bandonga.com/code/sort/)                                                | [c](dsa/c/binary_search/bubble_sort.c)
