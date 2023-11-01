@@ -26,6 +26,12 @@ cache/
 **/HELP.md
 **/HINTS.md
 
+# ignoring track for now
+exercism/typescript
+dsa/typescript
+exercism/elixir
+dsa/elixir
+
 
 ###############################################################################
 ## go
@@ -248,14 +254,7 @@ Cargo.lock
 ### c
 ###############################################################################
 
-# ignoring track for now
-exercism/c
-
 
 ###############################################################################
 ### typescript
 ###############################################################################
-
-# ignoring track for now
-exercism/typescript
-dsa/typescript
