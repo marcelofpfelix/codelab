@@ -19,6 +19,8 @@ The objectives are simple:
 
 If everything goes well, you will be ready to fetch your first real exercise.
 
+In the Rust track, tests are run using the command `cargo test`.
+
 ## Source
 
 ### Created by

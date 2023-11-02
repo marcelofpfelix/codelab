@@ -26,6 +26,9 @@ cache/
 **/HELP.md
 **/HINTS.md
 
+# c test framework
+**/test-framework
+
 # ignoring track for now
 exercism/typescript
 dsa/typescript
